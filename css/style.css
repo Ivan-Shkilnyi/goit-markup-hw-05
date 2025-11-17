@@ -147,7 +147,7 @@ p {
 
 /* #region baner */
 
-.section-baner {
+.baner {
   padding-bottom: 188px;
   max-width: 1440px;
   height: 600px;
@@ -158,7 +158,7 @@ p {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
 }
 
-.section-baner {
+.baner {
   padding: 188px 0;
 }
 
@@ -568,6 +568,7 @@ p {
   transform: translate(-50%, -50%);
   width: 408px;
   height: 584px;
+  border-radius: 4px;
   padding: 24px;
   padding-top: 72px;
   background-color: #fcfcfc;
@@ -618,7 +619,19 @@ p {
 
 .input-field {}
 
-.text-field {}
+.text-field {
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+
+.comment {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 360px;
+  height: 120px;
+}
 
 .input-icon {}
 
