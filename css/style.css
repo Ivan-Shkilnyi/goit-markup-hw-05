@@ -764,7 +764,11 @@ p {
   color: #8e8f99;
 }
 
-.accept-checkbox:checked+.policy-label>.custom-checkbox .checked {}
+.accept-field-box:checked+.accept>.custom-checkbox .checked {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
 
 .custom-checkbox {
   display: inline-flex;
@@ -775,6 +779,11 @@ p {
   fill: transparent;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.policy-link{
+  color: #4d5ae5;
 
 }
 
@@ -797,10 +806,26 @@ p {
 }
 
 .button-accent {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+background-color: #4D5AE5;
+cursor: pointer;
+border: none;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+text-align: center;
+color: #fff;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.button-accent {
+/* .button-accent {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 4px;
   border: none;
@@ -816,6 +841,6 @@ p {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-}
+} */
 
 /* #endregion modal */
