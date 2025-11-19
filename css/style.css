@@ -700,14 +700,7 @@ p {
   border-color: #4D5AE5;
 }
 
-.input-icon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  left: 16px;
-}
+
 
 .comment {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -746,6 +739,7 @@ p {
   left: 24px;
   stroke: #404040;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  left: 16px;
 }
 
 .text-field:focus+.input-icon {
@@ -764,7 +758,7 @@ p {
   color: #8e8f99;
 }
 
-.accept-field-box:checked+.accept>.custom-checkbox .checked {
+.accept-checkbox:checked+.accept>.custom-checkbox .checked {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
@@ -805,7 +799,7 @@ p {
   fill: #ffffff
 }
 
-.button-accent {
+.button-send {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -820,7 +814,6 @@ border: none;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 text-align: center;
 color: #fff;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   margin-right: auto;
 }
